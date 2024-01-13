@@ -32,6 +32,26 @@
     button:hover {
       background-color: #666;
     }
+    
+    /* 手机屏幕样式 */
+    @media screen and (max-width: 768px) {
+      body {
+        font-size: 20px; /* 调整字体大小以填满屏幕 */
+      }
+      button {
+        font-size: 18px; /* 调整按钮字体大小以填满屏幕 */
+      }
+    }
+    
+    /* 电脑屏幕样式 */
+    @media screen and (min-width: 769px) {
+      body {
+        font-size: 16px; /* 调整字体大小以适应电脑屏幕 */
+      }
+      button {
+        font-size: 14px; /* 调整按钮字体大小以适应电脑屏幕 */
+      }
+    }
   </style>
 </head>
 <body>
